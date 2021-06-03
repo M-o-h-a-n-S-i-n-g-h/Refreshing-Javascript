@@ -4,7 +4,7 @@ function closure1(message) {
   }, 2000);
 }
 
-closure1('Im inside closure1 function block');
+closure1("Im inside closure1 function block");
 
 function closure2(message) {
   return function () {
@@ -12,7 +12,7 @@ function closure2(message) {
   };
 }
 
-let res = closure2('Im inside closure2 function block');
+let res = closure2("Im inside closure2 function block");
 res();
 
 // Closure
