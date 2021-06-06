@@ -28,10 +28,10 @@ class ControlledForm extends React.Component {
            </h1>
            <form onSubmit={this.onSubmit}>
               <label htmlFor="name">Name</label>
-              <input type="text" name="name"
+              <input type="text" name="name" value={this.state.name}
                      onChange={(e) => this.handleChange(e.target.name, e.target.value)}/>
               <label htmlFor="password" onChange={this.handleChange}>Password</label>
-              <input type="password" name="password"
+              <input type="password" name="password" value={this.state.password}
                      onChange={(e) => this.handleChange(e.target.name, e.target.value)}/>
               <button type="submit">Submit</button>
            </form>
