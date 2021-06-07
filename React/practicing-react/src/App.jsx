@@ -6,6 +6,7 @@ import ConditionalRendering from "./components/lifeCycleMethods/ConditionalRende
 import ControlledForm from "./components/forms/ControlledForm";
 import DisplayCounter from "./components/lifitngState/DisplayCounter";
 import ErrorHandling from "./components/errorHandler/ErrorHandling";
+import HandlingRef from "./components/HandlingRefs/HandlingRef";
 
 class App extends React.Component {
    render() {
@@ -17,7 +18,8 @@ class App extends React.Component {
            <ConditionalRendering isLoggedIn={true}/>*/}
            {/*<ControlledForm/>
            <DisplayCounter/>*/}
-           <ErrorHandling/>
+           {/*<ErrorHandling/>*/}
+           <HandlingRef/>
         </>
       )
    }
