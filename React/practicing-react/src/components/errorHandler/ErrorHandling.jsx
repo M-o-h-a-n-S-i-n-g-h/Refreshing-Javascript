@@ -34,6 +34,9 @@ const ErrorHandler = () => {
    
    return (
      <div className="App">
+        <h1>If you enter strings instead of numbers the error message will show up after you press
+           submit button
+        </h1>
         {!error && (
           <form onSubmit={onSubmit}>
              <label htmlFor="number1">First Number</label>
