@@ -5,6 +5,7 @@ import DidUpdate from "./components/lifeCycleMethods/ComponentDidUpdate";
 import ConditionalRendering from "./components/lifeCycleMethods/ConditionalRendering";
 import ControlledForm from "./components/forms/ControlledForm";
 import DisplayCounter from "./components/lifitngState/DisplayCounter";
+import ErrorHandling from "./components/errorHandler/ErrorHandling";
 
 class App extends React.Component {
    render() {
@@ -14,8 +15,9 @@ class App extends React.Component {
            {/*<DidMount title="DidMount Component"/>
            <DidUpdate title="DidUpdate Component" name="Lee Chong Wei"/>
            <ConditionalRendering isLoggedIn={true}/>*/}
-           <ControlledForm/>
-           <DisplayCounter/>
+           {/*<ControlledForm/>
+           <DisplayCounter/>*/}
+           <ErrorHandling/>
         </>
       )
    }
