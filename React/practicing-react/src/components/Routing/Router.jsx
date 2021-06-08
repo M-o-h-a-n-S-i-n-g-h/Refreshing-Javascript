@@ -39,6 +39,11 @@ const Router = () => {
               HandlingRef
            </Link>
         </div>
+        <div className="link">
+           <Link to="/about">
+              About
+           </Link>
+        </div>
      </div>
    )
 }
