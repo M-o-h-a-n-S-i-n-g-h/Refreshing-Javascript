@@ -12,6 +12,7 @@ import DisplayCounter from "./components/lifitngState/DisplayCounter";
 import ErrorHandling from "./components/errorHandler/ErrorHandling";
 import HandlingRef from "./components/HandlingRefs/HandlingRef";
 import Router from "./components/Routing/Router";
+import ApiHandler from "./components/apiHandling/ApiHandling";
 
 
 const App = () => {
@@ -28,6 +29,8 @@ const App = () => {
            <Route exact path="/liftState" component={DisplayCounter}/>
            <Route exact path="/errorHandling" component={ErrorHandling}/>
            <Route exact path="/handlingRef" component={HandlingRef}/>
+           <Route exact path="/handlingRef" component={HandlingRef}/>
+           <Route exact path="/posts" component={ApiHandler}/>
            <UserContext.Provider value={{value, setValue}}>
               <Route exact path="/about" component={About}/>
               <Route exact path="/contact" component={Contact}/>

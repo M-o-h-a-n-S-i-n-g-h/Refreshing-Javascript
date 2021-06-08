@@ -44,6 +44,11 @@ const Router = () => {
               About
            </Link>
         </div>
+        <div className="link">
+           <Link to="/posts">
+              Api Handler
+           </Link>
+        </div>
      </div>
    )
 }
