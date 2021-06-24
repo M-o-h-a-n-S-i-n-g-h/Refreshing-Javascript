@@ -14,7 +14,6 @@ import HandlingRef from "./components/HandlingRefs/HandlingRef";
 import Router from "./components/Routing/Router";
 import ApiHandler from "./components/apiHandling/ApiHandling";
 
-
 const App = () => {
    const [value, setValue] = React.useState("Hello from Provider")
    return (
